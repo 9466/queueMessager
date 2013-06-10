@@ -29,7 +29,7 @@ ulimit -a
 ulimit -n 1024
 ```
 
-第二2上问题是TCP本身的机制问题，可以通过配置可以大大减少TIME_WAIT的数量：
+第二个问题是TCP本身的机制问题，可以通过配置可以大大减少TIME_WAIT的数量：
 
 ```
 vi /etc/sysctl.conf
