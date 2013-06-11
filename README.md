@@ -4,7 +4,7 @@ Go语言练习项目。根据工作中的项目需求进行的实践。
 
 **从redis中读取队列数据发送给后端的php fastcgi处理。**
 
-该项目中使用到了redis,fastcgi客户端，使用了gorutine和signal信号处理。基本把go中的基础知识都用了一遍。
+该项目中使用到了redis,fastcgi客户端，使用了json,gorutine和signal信号处理，采用面对对象编程，基本把go中的基础知识都用了一遍。
 
 ##注意
 其中使用的fcgiclient，需要自己先创建一个fcgiclient项目，项目中就一个文件，请点击下载：
